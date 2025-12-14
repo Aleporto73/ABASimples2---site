@@ -9,6 +9,7 @@ import { Pricing } from './components/Pricing';
 import { ComparisonTable } from './components/ComparisonTable';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
+import { FAQ } from './components/FAQ';
 
 const App: React.FC = () => {
   return (
@@ -23,6 +24,7 @@ const App: React.FC = () => {
         <SocialProof />
         <ComparisonTable />
         <Pricing />
+        <FAQ />
       </main>
       <Footer />
     </div>
