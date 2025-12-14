@@ -13,8 +13,15 @@ export const Pricing: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 px-4 bg-slate-50 border-t border-slate-200">
+    <section className="pt-10 pb-20 px-4 bg-slate-50 border-t border-slate-200">
       <div className="max-w-6xl mx-auto">
+        
+        {/* Faixa de Transição Institucional */}
+        <div className="bg-royal rounded-xl w-full py-8 px-6 mb-10 text-center shadow-sm">
+          <p className="text-white font-semibold text-base sm:text-lg md:text-xl leading-[1.4]">
+            Do profissional iniciante à clínica especializada, o ABA Simples acompanha toda a jornada clínica com o mesmo padrão técnico.
+          </p>
+        </div>
         
         {/* Clarification Text */}
         <div className="text-center mb-12 max-w-2xl mx-auto">
